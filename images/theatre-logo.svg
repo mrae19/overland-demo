@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="117px" height="38px" viewBox="0 0 117 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>xTheatre Graphic</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="xHome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-52.000000, -900.000000)">
+        <g id="xTheatre-Graphic" transform="translate(52.000000, 900.000000)">
+            <g id="X-logo">
+                <path d="M0,0 L9.32185651,0 L15.9178609,11.1564353 L22.7178455,0 L31.7510243,0 L20.504767,16.5743298 L32,34 C30.3446613,33.6995859 28.676412,33.4548543 26.9952523,33.2658051 C25.3140926,33.076756 23.6200223,32.9433894 21.9130416,32.8657052 L16,22.8816105 L9.67988045,32.8657052 C8.04998042,32.9433894 6.42837371,33.076756 4.8150603,33.2658051 C3.20174689,33.4548543 1.59672679,33.6995859 0,34 L11.3454241,17 L0,0 Z" id="Path-2" fill="#FF7737"></path>
+                <polygon id="Triangle" fill="#DBDBE6" points="16.5 34 19 38 14 38"></polygon>
+            </g>
+            <text id="Theater" font-family="DINPro-Medium, DINPro" font-size="20" font-weight="400" letter-spacing="0.5" fill="#DBDBE6">
+                <tspan x="30" y="25">Theater</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

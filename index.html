@@ -14,54 +14,83 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-transparent" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="logo-crest" src="images/xlogo-main.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#theatre">Theatre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#services">Sponsors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Gear</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Vehicle Builds</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Shop</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <header class="bg-primary text-white">
-      <div class="container text-center">
-        <h1>Welcome to Scrolling Nav</h1>
-        <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
-      </div>
+    <header class="bg-primary bg-main-image text-white">
+      <!-- <img src="images/hero-image.png"> -->
+      
     </header>
 
-    <section id="about">
-      <div class="container">
+    <section id="theatre">
+      <div class="theatre-container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>About this page</h2>
-            <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-            <ul>
-              <li>Clickable nav links that smooth scroll to page sections</li>
-              <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-              <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-              <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-            </ul>
+          <div class="col-lg-12 mx-auto">
+            <h2><img class="theatre-logo" src="images/theatre-logo.svg"></h2>
+            <div class="selector">
+              <ul class="season-selector">
+                <li class="nav-item">
+                  <a class="nav-link season-selected">Season 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Season 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Season 3</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Vehicle Builds</a>
+                </li>
+              </ul>
+            </div>
+            <div class="video-thumbs">
+              <div class="video-thumb thumb-selected"></div>
+              <div class="video-thumb"></div>
+              <div class="video-thumb"></div>
+              <div class="video-thumb"></div>
+              <div class="video-thumb"></div>
+              <div class="video-thumb"></div>
+              <div class="video-thumb"></div>
+              <div class="video-thumb"></div>
+              <div class="video-thumb"></div>
+              <div class="video-thumb"></div>
+              <div class="video-thumb"></div>
+              <div class="video-thumb"></div>
+
+            </div>
+            <div class="video-player"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Qu3t0FsTMOA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </div>
         </div>
       </div>

@@ -1,0 +1,124 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+
+.logo-crest {
+	margin-top: 15px;
+}
+
+.theatre-logo {
+	margin-left: 70px;
+}
+
+.navbar-transparent {
+	background-color: rgba(0,0,0,0) !important;
+	height: 80px;
+}
+
+.bg-main-image {
+	background-image: url('../images/hero-image.png') !important;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100vh;
+	margin-top: -80px;
+}
+
+/*Video Player*/
+#theatre {
+	background-color: black;
+	color: white;
+	padding: 20px 0px 40px;
+}
+
+.theatre-container {
+	width: 98%;
+}
+
+.video-player {
+	width: 95%;
+	margin: 0 auto;
+	height: 100vh;
+	background-color: black;
+}
+
+.video-thumbs {
+	list-style-type: none;
+    overflow: hidden;
+    background: black;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.video-thumb {
+	float: left;
+	display: block;
+	padding: 10px;
+	height: 50px;
+	width: 80px;
+	margin-right: 20px;
+	background: #212529;
+}
+
+.thumb-selected {
+	border: solid 4px #FF7737;
+}
+
+.nav-link:hover {
+	background-image: url('../images/selected-splat.svg');
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-position: center left;
+	color: white;
+}
+
+.nav-item {
+	margin-right: 10px;
+}
+
+.selector {
+	margin: 0 auto;
+    width: 100%;
+    padding: 0px 420px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.season-selected {
+	background-image: url('../images/selected-splat.svg');
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-position: center left;
+	color: white;
+}
+
+.season-selector {
+	list-style-type: none;
+	overflow: hidden;
+	background: black;
+	margin: o auto;
+}
+
+.season-selector .nav-link{
+	float: left;
+	display: block;
+	padding: 10px;
+	color: white;
+}
